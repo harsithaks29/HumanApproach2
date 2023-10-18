@@ -1,0 +1,16 @@
+import java.util.*;
+class demoz
+{
+     int x[]={1,1,2,2,2,2,3};
+       int count=0;
+      Scanner is=new Scanner(System.in);
+      System.out.println("enter value:");
+     int b=is.nextInt();
+       for(int i=0;i<x.length;i++)
+      {
+                   if(b==a[i])
+          	{
+	 	count++;
+         	}
+     }
+    print(count);
